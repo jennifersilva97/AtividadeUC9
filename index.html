@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form on submit=" =enviarAlerta()">
+<div class="info">
+    <label for="email">E-mail</label>
+    <input id="email" name= "email" type="text" placeholder="Digite seu e-mail">
+</div>
+<div class="info">
+    <label for="senha">Senha</label>
+    <input id="senha" name= "senha" type="password" placeholder="Digite sua senha">
+</div>
+<button class="bnt_form">Entrar</button>
+    </form>
+    
+</body>
+<script>
+var email = document.getElementById (email)
+var senha = document.getElementById (senha)
+
+function enviarAlerta () {
+let emailDig = email.value
+let senhaDig = senha.value
+
+alert("Seu email é: " + emailDig + " e sua senha é: ")
+
+}
+</script>
+</html>

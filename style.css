@@ -1,0 +1,43 @@
+body {
+    background-color: #edf8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+form{
+    background-color: #c1b8dc;
+    width: 650px;
+    height: 500px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 40px;
+
+
+}
+
+.info input {
+    height: 25px;
+    border: none;
+    border-radius: 6px;
+}
+
+.bnt_form {
+    background-color:#5A42EF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
